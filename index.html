@@ -9,29 +9,52 @@
   </head>
   <body>
     <div class="header">
-      <!-- ikon -->
+      <img class="logga" src="AE Logga.PNG" href="index.html" />
       <h2 class="rubrik">AE Sports</h2>
-      <!-- hamburgarmeny och shoppingkart -->
+      <div class="tom">
+        <input id="toggle" type="checkbox" />
+
+        <label for="toggle" class="hamburger">
+          <div class="top-bun"></div>
+          <div class="meat"></div>
+          <div class="bottom-bun"></div>
+        </label>
+
+        <div class="nav">
+          <div class="nav-wrapper">
+            <nav>
+              <a href="index.html">HEM</a><br />
+              <a href="varukorg.html">START-KIT</a><br />
+              <a href="hockey.html">HOCKEY</a><br />
+              <a href="fotboll.html">FOTBOLL</a><br />
+              <a href="varukorg.html">VARUKORG</a><br />
+            </nav>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="hockey.jpg" style="width: 100%" />
+        <img src="hockey.jpg" style="width: 100%" href="hockey.html" />
         <div class="text">Ice Age</div>
-        <div class="undertext">våran nya kollektion</div>
+        <div class="undertext">
+          våran nya kollektion retro inspererade ishockey skridskor
+        </div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
         <img src="ping.jpg" style="width: 100%" />
-        <div class="text">Caption Two</div>
+        <div class="text">Ping Start-up-kit</div>
+        <div class="undertext">Anpassat för nybörjare och att ge iväg</div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
         <img src="fotboll.jpg" style="width: 100%" />
-        <div class="text">Caption Three</div>
+        <div class="text">Fotbolls Set</div>
+        <div class="undertext">
+          Perfect för träning både ute och inne. Skor ingår inte.
+        </div>
       </div>
 
       <!-- Next and previous buttons -->
@@ -46,6 +69,7 @@
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
+    <footer></footer>
   </body>
   <script src="script.js"></script>
 </html>
