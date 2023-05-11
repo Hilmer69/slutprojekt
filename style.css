@@ -20,9 +20,13 @@
   overflow: hidden;
 }
 
-.rubrik {
-  color: black;
+h2 {
   font-family: Lora;
+  color: black;
+  text-shadow: 2px 2px 0px rgb(255, 255, 255), 2px -2px 0px rgb(255, 255, 255),
+    -2px 2px 0px rgb(255, 255, 255), -2px -2px 0px rgb(255, 255, 255),
+    2px 0px 0px rgb(255, 255, 255), 0px 2px 0px rgb(255, 255, 255),
+    -2px 0px 0px rgb(255, 255, 255), 0px -2px 0px rgb(255, 255, 255);
 }
 
 * {
@@ -79,20 +83,9 @@
   padding: 8px 12px;
   width: 100%;
   text-align: center;
-  font-size: 50px;
   position: absolute;
-  bottom: 39px;
-}
-
-.undertext {
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
+  bottom: 0px;
   font-size: 20px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
 }
 
 /* The dots/bullets/indicators */
