@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Silkscreen&display=swap");
 
+img {
+  width: 100%;
+}
+
 .header {
   background-color: white;
   height: 65px;
@@ -11,7 +15,7 @@
   border-bottom: solid black;
 }
 
-.logga {
+.loggo {
   width: 12%;
   margin-left: 1%;
   border-radius: 50%;
@@ -88,6 +92,10 @@ h2 {
   font-size: 20px;
 }
 
+.dots {
+  text-align: center;
+}
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -118,6 +126,22 @@ h2 {
   to {
     opacity: 1;
   }
+}
+
+.item-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  width: 30%;
+  border: solid black;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 #toggle {
