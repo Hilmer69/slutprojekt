@@ -9,8 +9,10 @@
     <title>AE Sports</title>
   </head>
   <body>
-    <div class="header">
-      <a href="index.html"><img class="loggo" src="bilder/AE Logga.PNG" /></a>
+    <header>
+      <a href="index.html"
+        ><img class="loggo" src="bilder/AE Logga.PNG" alt="logga"
+      /></a>
       <h2>AE Sports</h2>
       <div class="tom">
         <input id="toggle" type="checkbox" />
@@ -29,17 +31,18 @@
               <a href="hockey.html">HOCKEY</a><br />
               <a href="fotboll.html">FOTBOLL</a><br />
               <a href="varukorg.html">VARUKORG</a><br />
+              <a href="contact.html">KONTAKTA OSS</a>
             </nav>
           </div>
         </div>
       </div>
-    </div>
+    </header>
     <main>
       <div class="slideshow-container">
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
           <a href="hockey.html">
-            <img src="bilder/hockey.jpg" />
+            <img src="bilder/hockey.jpg" alt="hockey" />
             <div class="text">
               <h2>Ice Age</h2>
               våran nya kollektion retro inspererade ishockey skridskor
@@ -49,7 +52,7 @@
 
         <div class="mySlides fade">
           <a href="startkit.html">
-            <img src="bilder/ping.jpg" />
+            <img src="bilder/ping.jpg" alt="ping-pong" />
             <div class="text">
               <h2>Ping Start-up-kit</h2>
               Anpassat för nybörjare och att ge iväg
@@ -59,7 +62,7 @@
 
         <div class="mySlides fade">
           <a href="fotboll.html">
-            <img src="bilder/fotboll.jpg" />
+            <img src="bilder/fotboll.jpg" alt="fotboll" />
             <div class="text">
               <h2>Fotbolls Set</h2>
               Perfect för träning både ute och inne. Skor ingår inte.
@@ -81,19 +84,42 @@
       </div>
       <div class="item-wrapper">
         <div class="item">
-          <img src="bilder/monke.jpg" />
+          <img src="bilder/monke.jpg" alt="product" />
+          <h3 class="produkt">produkt1</h3>
+          <ul>
+            <li>namn</li>
+            <li>100</li>
+            <li>beskrivning</li>
+            <button id="addToCart1">Lägg till produkt i varukorg</button>
+          </ul>
         </div>
         <div class="item">
-          <img src="bilder/monke.jpg" />
+          <img src="bilder/monke.jpg" alt="product" />
+          <h3 class="produkt">produkt2</h3>
+          <ul>
+            <li>namn</li>
+            <li>200</li>
+            <li>beskrivning</li>
+            <button id="addToCart2">Lägg till produkt i varukorg</button>
+          </ul>
         </div>
         <div class="item">
-          <img src="bilder/monke.jpg" />
+          <img src="bilder/monke.jpg" alt="product" />
+          <h3 class="produkt">produkt3</h3>
+          <ul>
+            <li>namn</li>
+            <li>300</li>
+            <li>beskrivning</li>
+            <button id="addToCart3">Lägg till produkt i varukorg</button>
+          </ul>
         </div>
       </div>
     </main>
     <footer>
       <h3>kontakta oss</h3>
-      <p class="info">Mail: hilmer.burgstaller@skola.taby.se</p>
+      <a href="contact.html" class="info"
+        >Mail: hilmer.burgstaller@skola.taby.se</a
+      ><br />
       <p class="info">Telefon: 072 311 18 77</p>
       <p class="info">Onlyfans: HilmerDenStore</p>
     </footer>

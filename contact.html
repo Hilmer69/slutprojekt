@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Varukorg</title>
+    <link rel="icon" href="bilder/AE Logga.PNG" />
+    <title>Kontakta oss</title>
   </head>
   <body>
     <header>
       <a href="index.html"><img class="loggo" src="bilder/AE Logga.PNG" /></a>
-      <h2 class="rubrik">Varukorg</h2>
+      <h2>Kontakta oss</h2>
       <div class="tom">
         <input id="toggle" type="checkbox" />
 
@@ -34,12 +35,21 @@
         </div>
       </div>
     </header>
-    <h2>Produkter</h2>
-    <div id="cart">
-      <!-- I den här diven ska produkterna som ligger i localStorage läggas in. -->
+  </head>
+  <body>
+    <div class="contact-form">
+      <h3>Du når oss lättast här:</h3>
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          rows="5"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
     </div>
-      <script src="script.js"></script>
-    </body>
-    </html>
   </body>
 </html>
